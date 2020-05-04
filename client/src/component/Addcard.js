@@ -11,7 +11,7 @@ class AddContact extends Component {
         name: this.props.contact.name,
         email: this.props.contact.email,
         tel: this.props.contact.tel,
-        id: this.props.AddContact._id,
+         id: this.props.contact._id,
       });
   }
 
